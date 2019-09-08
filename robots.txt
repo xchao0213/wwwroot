@@ -1,0 +1,10 @@
+#
+# robots.txt for www.zychr.com
+#
+
+User-agent: *
+
+Disallow: /admin/
+Disallow: /adfile/
+Disallow: /data/
+Disallow: /User/

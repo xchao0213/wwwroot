@@ -1,0 +1,568 @@
+body {
+    font-family: Verdana, Arial, Helvetica, microsoft yahei, '\534E\6587\7EC6\9ED1' !important;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-nav {
+    padding: 10px;
+}
+
+.navbar-brand {
+    padding: 5px;
+}
+
+.navbar-brand img {
+    width: 40px;
+    float: left;
+    margin-right: 5px;
+}
+
+.navbar-brand p {
+    color: #fff;
+    font-size: 15px;
+    padding: 5px;
+    line-height: 16px;
+    margin-bottom: 0;
+}
+
+.navbar-nav > li {
+    padding: 0 10px;
+}
+
+.navbar-default .navbar-nav > li a {
+    padding: 5px;
+    border: 1px solid #2d313d;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    /*background: #33b26d;*/
+    border: 1px solid #33b26d;
+    /*color: #fff;*/
+}
+
+.active{
+    color: #33b26d!important;
+    border: 1px solid #33b26d!important;
+}
+
+.vision {
+    position: relative;
+    /*    background: url(../img/main.jpg);
+        width: 1920px;
+        height:876px;
+        background-size: 100%;*/
+}
+
+.slogan {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 60%;
+    margin-left: -30%;
+}
+
+.mission {
+    width: 9%;
+    position: absolute;
+    top: 12%;
+    left: 18%;
+}
+
+.btn-main {
+    border: 1px solid #33b26d;
+    color: #33b26d;
+    padding: 6px 30px;
+}
+
+.btn-main:hover {
+    background: #33b26d;
+    color: #fff;
+}
+
+.btn-white {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 6px 30px;
+}
+
+.btn-white:hover {
+    background: #fff;
+}
+
+/*.position {
+    padding: 2% 0 5% 0;
+}
+
+.position .row {
+    padding: 8% 0;
+}
+
+.position-item {
+    height: 160px;
+}
+
+.position-item img {
+    height: 80%;
+}
+
+.position-item span {
+    display: block;
+    font-size: 16px;
+    padding: 5%;
+}*/
+
+.content {
+    position: relative;
+}
+
+.content h2 {
+    color: #30b889;
+}
+
+.content-item {
+    /*margin: 5%;*/
+    padding-bottom: 20px;
+}
+
+.content-item:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.4);
+}
+
+.content-item:hover img {
+    transform: Rotate(5deg);
+}
+
+.content-item h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.farm {
+    background: #ffc265;
+}
+
+.culture {
+    background: #5ce994;
+}
+
+.tech {
+    background: #26bbd0;
+}
+
+.big-data {
+    background: #f7825a;
+}
+
+.farm .btn-white:hover {
+    color: #ffc265;
+}
+
+.culture .btn-white:hover {
+    color: #5ce994;
+}
+
+.tech .btn-white:hover {
+    color: #26bbd0;
+}
+
+.big-data .btn-white:hover {
+    color: #f7825a;
+}
+
+.img-wrapper {
+    height: 140px;
+    line-height: 140px;
+}
+
+/*
+.case {
+    background: #33b26d;
+}
+
+.case h1 {
+    color: #fff;
+    margin: 50px;
+}
+
+.case-item {
+    background: #fff;
+    padding: 5%;
+}
+
+.case-item img {
+    width: 100%;
+}
+
+.case .more {
+    margin: 30px;
+}*/
+
+.partner {
+    padding-bottom: 5%;
+}
+
+.partner img {
+    max-width: 100%;
+}
+
+.partner h1 {
+    margin: 50px;
+
+}
+
+.partner-item {
+    padding: 10px;
+}
+
+footer {
+    color: #33b26d;
+    background: #2d313d;
+    padding-bottom: 20px;
+}
+
+footer input, footer textarea {
+    border: 1px solid #33b26d;
+    background: transparent;
+    padding: 4px;
+    margin: 4px;
+}
+
+footer .name {
+    width: 80%;
+}
+
+footer .tel {
+    width: 80%;
+}
+
+footer .mail, footer .message {
+    width: 80%;
+}
+
+footer button {
+    margin-left: 4px;
+}
+
+footer h4 {
+    padding: 5px 0;
+    display: inline;
+    border-bottom: 2px solid #ddd;
+}
+
+footer h4 span:first-child {
+    padding: 5px 0;
+    border-bottom: 2px solid #33b26d;
+}
+
+footer .title {
+    padding: 16px 0;
+}
+
+.icon {
+    display: inline-block;
+    background: url(../img/icons.png);
+    width: 20px;
+    height: 20px;
+    background-size: 100%;
+    top: 4px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.icon-fax {
+    background-position: 0 -20px;
+}
+
+.icon-mail {
+    background-position: 0 -40px;
+}
+
+.icon-address {
+    background-position: 0 -60px;
+}
+
+.qrcode {
+    width: 128px;
+    margin-top: 20px;
+}
+
+.qrcode .weixinqrcode, .qrcode .weiboqrcode {
+    width: 90%;
+}
+
+.alt {
+    margin-top: 5px;
+}
+
+.content .title {
+    padding: 20px;
+}
+
+.content .title h2 {
+    color: #5ce994;
+}
+
+.content .title h4 {
+    color: #a4a4a4;
+    margin-top: 30px;
+}
+
+.content-items {
+    padding: 40px 0 40px 0;
+}
+
+.platform {
+    position: relative;
+    background: #52ce84;
+    height: 500px;
+}
+
+.platform > img {
+    margin: 0 auto;
+    width: 600px;
+    position: relative;
+    top: -50px;
+}
+
+.platform h2 {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    top: 20px;
+    color: #fff;
+}
+
+.platform h3 {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    bottom: 80px;
+    color: #fff;
+}
+
+.platform h4 {
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    bottom: 30px;
+}
+
+.device {
+    position: absolute;
+    top: 0;
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+}
+
+.device .imac {
+    opacity: 0;
+    width: 280px;
+    position: absolute;
+    top: 74px;
+    left: 128px;
+}
+
+.device .ipad {
+    opacity: 0;
+    width: 150px;
+    position: absolute;
+    top: 181px;
+    left: 56px;
+}
+
+.device .iphone {
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 160px;
+    width: 100px;
+}
+
+.user {
+    background: #eee;
+    padding-bottom: 20px;
+}
+
+.user h2 {
+    color: #30b889;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.user > img {
+    margin: 0 auto;
+    width: 800px;
+    padding: 40px;
+}
+
+.user-content {
+    position: relative;
+    width: 700px;
+    background: url(../img/user.png);
+    background-size: 100%;
+    -ms-behavior: url(libs/backgroundsize.min.htc);
+    height: 440px;
+    margin: 0 auto;
+}
+
+.farmer {
+    position: absolute;
+    left: 0;
+    top: 130px;
+}
+
+.farmhand {
+    position: absolute;
+    right: 31px;
+    top: 30px;
+}
+
+.agri {
+    position: absolute;
+    right: -29px;
+    top: 179px;
+}
+
+.gov {
+    position: absolute;
+    left: 26px;
+    top: 281px;
+}
+
+.partner h2 {
+    color: #30b889;
+}
+
+.s-one {
+    animation: smaller-45to30 4s ease-in-out infinite alternate both;
+}
+
+.s-two {
+    animation: smaller-55to30 6s ease-in-out infinite alternate both;
+}
+
+.s-three {
+    animation: smaller-55to30 8s ease-in-out infinite alternate both;
+}
+
+.s-four {
+    animation: smaller-55to30 10s ease-in-out infinite alternate both;
+}
+
+@-webkit-keyframes smaller-45to30 {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+    to {
+        opacity: .5;
+        -webkit-transform: scale(.667);
+        transform: scale(.667)
+    }
+}
+
+@keyframes smaller-45to30 {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+    to {
+        opacity: .5;
+        -webkit-transform: scale(.667);
+        transform: scale(.667)
+    }
+}
+
+@-webkit-keyframes smaller-55to30 {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+    to {
+        opacity: .6;
+        -webkit-transform: scale(.55);
+        transform: scale(.55)
+    }
+}
+
+@keyframes smaller-55to30 {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+    to {
+        opacity: .6;
+        -webkit-transform: scale(.55);
+        transform: scale(.55)
+    }
+}
+
+.company-intro {
+    color: #fff;
+    background: #33b26d;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner h2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 120px;
+    margin-left: -60px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.banner h2 p{
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+.intro-img,.intro-text{
+    padding: 20px;
+}
+
+.owl-carousel img{
+    width: 100%;
+    padding: 10px;
+}
+
+.course{
+    color: #fff;
+    background: #33b26d;
+}
+
+.timeline{
+    position: relative;
+    display: inline-block;
+    background: url(../img/timeline.png) center no-repeat;
+    width: 800px;
+    height: 436px;
+    /*background-size: 100%;*/
+}
+
+.timeline .left,.timeline .right{
+    width: 47%;
+}
+
+.timeline p{
+    position: relative;
+}
+.timeline p em{
+    display: block;
+    font-style: normal;
+}
+

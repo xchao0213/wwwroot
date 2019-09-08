@@ -1,0 +1,29 @@
+.gray{color: #666}
+.red{color: #f00}
+a.red{color: #f00}
+
+#content{margin:5px;font-family:"Î¢ÈíÑÅºÚ";}
+#content .title{text-indent:10px;border: #CCCCCC 1px solid; border-bottom:none; font-size:14px;background:#EFEFEF;bottom: -1px;line-height:30px;position: relative;}
+#content .title span{color:#FF0000}
+#content .main{border:#CCCCCC 1px solid; background: #EFEFEF;position: relative}
+#content .main table{border-collapse: collapse;line-height:30px; text-indent:3px;}
+#content .main table td{padding:2px}
+#content .main input{border:1px #E3E3E3 solid; height:25px; line-height:28px; padding:0 5px}
+#content .main .select{border:1px #E3E3E3 solid;width:170px; line-height:28px; padding:5px 0px}
+#content .tip{border-right: #fc3 1px solid;padding-right: 1em;border-top: #fc3 1px solid;padding-left: 1em;font-size: 12px;right: 2em;background: #fff4c2;padding-bottom: 1em;border-left: #fc3 1px solid;width: 190px;padding-top: 1em;border-bottom: #fc3 1px solid;position: absolute;top: 2em}
+#content form{padding-right: 0px;padding-left: 0px;background: #fff;margin:8px;}
+#content table th{text-align: right}
+#content .field{text-align:right; font-size:14px; color: #333333;}
+#content .kome{font-size: 12px;color: #666}
+#content .price{color: #F50;font: 700 26px tahoma;}
+#obj{font-size:14px; color: #333333;}
+#obj span{ font-size:18px; color:#F00; padding:0px 5px}
+.new-btn-login-sp{border:1px solid #D74C00;padding:1px; display:inline-block;}
+.new-btn-login{width:100px;height:28px;line-height:28px; background:url("../images/new-btn-fixed.png")0 -198px; margin-left:-3px;border: medium none;}
+.new-btn-login{color:#FFF;font-weight:bold;cursor: pointer;}
+.new-btn-login:hover{background-position:0 -167px;width:100px;color: #FFFFFF;height: 28px;line-height: 28px;}
+.paybox{width:700px;height:150px;position:absolute;left:50%; top:50%; margin-left:-350px; margin-top:-75px;background:#e8fffd; border:10px #8fe1ff solid}
+.paybox p{ text-align:center; font-size:35px; font-family:"Î¢ÈíÑÅºÚ";color:#0081cc; margin-top:50px}
+
+#footer{border-top: #075cb1 3px solid;font-size: 12px;background: #f5f5f5;margin-bottom: 10px;color: #ccc;position: relative;text-align: center}
+#copy{font-size: 12px;text-align: center}

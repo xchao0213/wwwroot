@@ -1,0 +1,12 @@
+
+.wraper{width:100%;height:auto;position:relative;background:url(../images/bg.jpg) repeat;}
+.scroll_pic_view{position:relative; margin-bottom:5px;}
+.scroll_pic_view>div{width:10000px;overflow:hidden;}
+.scroll_pic_view ul{width:100%;white-space: nowrap;overflow: hidden;}
+.scroll_pic_view ul li{float:left;}
+.scroll_pic_view ul li a{display: block;}
+.scroll_pic_view ul li img{width:100%;max-height:300px;}
+.scroll_pic_view ol{position:absolute;z-index:1000;bottom:3px;width:100%;text-align: center;pointer-events:none;}
+.scroll_pic_view ol li{display:inline-block;width:25px;height:4px;color:#ffffff;text-align:center;margin:0px 2px;background: #F0FBFF;}
+.scroll_pic_view ol li.left{display:inline-block;color:#ffffff;background:#000;}
+.scroll_pic_view ol li.on{color:#ffffff;background:#48aff0;}

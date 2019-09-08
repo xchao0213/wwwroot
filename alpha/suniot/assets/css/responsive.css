@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1800px) {
+    .navbar .container {
+        width: 1770px;
+    }
+}
